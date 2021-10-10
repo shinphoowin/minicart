@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/minicart/static/css/main.39e30af1.chunk.css",
+    "main.js": "/minicart/static/js/main.44adabc5.chunk.js",
+    "main.js.map": "/minicart/static/js/main.44adabc5.chunk.js.map",
+    "runtime-main.js": "/minicart/static/js/runtime-main.9c61d65d.js",
+    "runtime-main.js.map": "/minicart/static/js/runtime-main.9c61d65d.js.map",
+    "static/css/2.5acad609.chunk.css": "/minicart/static/css/2.5acad609.chunk.css",
+    "static/js/2.214d3341.chunk.js": "/minicart/static/js/2.214d3341.chunk.js",
+    "static/js/2.214d3341.chunk.js.map": "/minicart/static/js/2.214d3341.chunk.js.map",
+    "index.html": "/minicart/index.html",
+    "static/css/2.5acad609.chunk.css.map": "/minicart/static/css/2.5acad609.chunk.css.map",
+    "static/css/main.39e30af1.chunk.css.map": "/minicart/static/css/main.39e30af1.chunk.css.map",
+    "static/js/2.214d3341.chunk.js.LICENSE.txt": "/minicart/static/js/2.214d3341.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/minicart/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c61d65d.js",
+    "static/css/2.5acad609.chunk.css",
+    "static/js/2.214d3341.chunk.js",
+    "static/css/main.39e30af1.chunk.css",
+    "static/js/main.44adabc5.chunk.js"
+  ]
+}
