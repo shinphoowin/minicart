@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import Main from "./views/Main";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import ProductsByCategory from "./views/ProductsByCategory";
+import AuthBar from "./views/AuthBar";
+import { connect } from "react-redux";
+import { removeFromCart } from "./store/actions/cart";
 
-function App() {
+const App = (props) => {
+  const { cartData, removeFromCart } = props;
+  const handleLogout = () => {
+    localStorage.removeItem("token");
+    localStorage.removeItem("cartData");
+    window.location.reload();
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <>
+      <AuthBar
+        handleLogout={handleLogout}
+        removeFromCart={removeFromCart}
+        cartData={cartData}
+        isLogin={localStorage.getItem("token")}
+      />
 
-export default App;
+      <Router>
+        <Route path="/" exact={true} component={Main} />
+        <Route path="/products/:type" exact component={ProductsByCategory} />
+      </Router>
+    </>
+  );
+};
+const mapStateToProps = (state) => ({
+  cartData: state.cart.data || [],
+});
+export default connect(mapStateToProps, { removeFromCart })(App);
