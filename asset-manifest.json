@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/minicart/static/css/main.39e30af1.chunk.css",
-    "main.js": "/minicart/static/js/main.44adabc5.chunk.js",
-    "main.js.map": "/minicart/static/js/main.44adabc5.chunk.js.map",
+    "main.js": "/minicart/static/js/main.347710a4.chunk.js",
+    "main.js.map": "/minicart/static/js/main.347710a4.chunk.js.map",
     "runtime-main.js": "/minicart/static/js/runtime-main.9c61d65d.js",
     "runtime-main.js.map": "/minicart/static/js/runtime-main.9c61d65d.js.map",
     "static/css/2.5acad609.chunk.css": "/minicart/static/css/2.5acad609.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.5acad609.chunk.css",
     "static/js/2.214d3341.chunk.js",
     "static/css/main.39e30af1.chunk.css",
-    "static/js/main.44adabc5.chunk.js"
+    "static/js/main.347710a4.chunk.js"
   ]
 }
